@@ -2,6 +2,8 @@
 
 This a tracker package for [PopTracker](https://github.com/black-sliver/PopTracker/releases) to with [Archipelago](https://archipelago.gg/) integration of Battle for Bikini Bottom.
 
+The BfBB AP world can be found [here](https://github.com/Cyb3RGER/bfbb_ap_world/releases).
+
 Also check out the Archipelago Discord [here](https://discord.gg/8Z65BR2) and the Poptracker Discord [here](https://discord.com/invite/gwThqMCPgK).
 
 ## Installation
