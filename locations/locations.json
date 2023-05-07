@@ -1141,7 +1141,7 @@
             }
         ],
         "access_rules": [
-            "@Mermalair 2, bubble_bowl"
+            "@Mermalair 2, bubble_bowl, lvl_item_bc:4"
         ],
         "sections": [
             {
@@ -1367,11 +1367,14 @@
                 ]
             },
             {
-                "name": "Lost Camper",
+                "name": "Lost Camper (requires Cruise Bubble)",
                 "item_count": 3,
                 "chest_opened_img": "images/items/lvl_item_kf1_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_kf1.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "access_rules": [
+                    "cruise_bubble"
+                ]
             },
             {
                 "name": "Lost Sock",
@@ -1391,11 +1394,14 @@
                 ]
             },
             {
-                "name": "Purple Shiny Object",
+                "name": "Purple Shiny Object (requires Cruise Bubble)",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "access_rules": [
+                    "cruise_bubble"
+                ]
             }
         ]
     },
@@ -1568,10 +1574,20 @@
         "sections": [
             {
                 "name": "Golden Spatula",
-                "item_count": 3,
+                "item_count": 1,
                 "chest_opened_img": "images/items/spat_disabled.png",
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false
+            },
+            {
+                "name": "Golden Spatula (requires Cruise Bubble)",
+                "item_count": 2,
+                "chest_opened_img": "images/items/spat_disabled.png",
+                "chest_unopened_img": "images/items/spat.png",
+                "clear_as_group": false,
+                "access_rules": [
+                    "cruise_bubble"
+                ]
             },
             {
                 "name": "Lost Sock",
