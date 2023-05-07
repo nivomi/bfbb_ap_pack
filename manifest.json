@@ -1,0 +1,22 @@
+﻿{
+    "name": "BfBB AP Tracker",
+    "game_name": "Battle for Bikini Bottom",
+    "package_version": "1.0.0.0",
+    "package_uid": "bfbb_ap_pack",
+    "platform": "ngc",
+    "author": "Cyb3R",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}

@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Golden Spatulas",
+        "type": "consumable",
+        "img": "images/items/spat.png",
+        "max_quantity": 100,
+        "codes": "spat",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Lost Socks",
+        "type": "consumable",
+        "img": "images/items/sock.png",
+        "max_quantity": 80,
+        "codes": "sock",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Bubble Bowl",
+        "type": "toggle",
+        "img": "images/items/bubble_bowl.png",
+        "codes": "bubble_bowl"
+    },
+    {
+        "name": "Cruise Bubble",
+        "type": "toggle",
+        "img": "images/items/cruise_bubble.png",
+        "codes": "cruise_bubble"
+    },
+    {
+        "name": "Golden Underwear",
+        "type": "consumable",
+        "img": "images/items/golden_underwear.png",
+        "max_quantity": 3,
+        "codes": "golden_underwear",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "King Jellyfish Jelly",
+        "type": "toggle",
+        "img": "images/items/lvl_item_jf.png",
+        "codes": "lvl_item_jf"
+    },
+    {
+        "name": "Steering Wheel",
+        "type": "consumable",
+        "img": "images/items/lvl_item_bb.png",
+        "max_quantity": 11,
+        "codes": "lvl_item_bb",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Balloon Kid",
+        "type": "consumable",
+        "img": "images/items/lvl_item_gl.png",
+        "max_quantity": 5,
+        "codes": "lvl_item_gl",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Museum Art",
+        "type": "consumable",
+        "img": "images/items/lvl_item_rb.png",
+        "max_quantity": 6,
+        "codes": "lvl_item_rb",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Security Override Button",
+        "type": "consumable",
+        "img": "images/items/lvl_item_bc.png",
+        "max_quantity": 4,
+        "codes": "lvl_item_bc",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Sandman",
+        "type": "consumable",
+        "img": "images/items/lvl_item_sm.png",
+        "max_quantity": 8,
+        "codes": "lvl_item_sm",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Lost Camper",
+        "type": "consumable",
+        "img": "images/items/lvl_item_kf1.png",
+        "max_quantity": 6,
+        "codes": "lvl_item_kf1",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Power Crystal",
+        "type": "consumable",
+        "img": "images/items/lvl_item_kf2.png",
+        "max_quantity": 6,
+        "codes": "lvl_item_kf2",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "Ship Cannon",
+        "type": "consumable",
+        "img": "images/items/lvl_item_gy.png",
+        "max_quantity": 4,
+        "codes": "lvl_item_gy",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "500 Shiny Objects",
+        "type": "consumable",
+        "img": "images/items/so_red.png",
+        "img_mods": "overlay|images/items/ol_500.png",
+        "max_quantity": 38,
+        "codes": "so_500",
+        "overlay_font_size": 20
+    }
+]

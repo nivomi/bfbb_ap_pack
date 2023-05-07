@@ -1,0 +1,6 @@
+todo.*
+.~lock.*
+*.xcf
+__pycache__
+*.py
+*.webp

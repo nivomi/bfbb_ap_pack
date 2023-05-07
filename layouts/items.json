@@ -1,0 +1,43 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "item_size": "72, 72", 
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "sock",
+                                "spat",
+                                "bubble_bowl",
+                                "cruise_bubble",
+                                "golden_underwear",
+                                "so_500"
+                            ],
+                            [
+                                "lvl_item_jf",
+                                "lvl_item_bb",
+                                "lvl_item_gl",
+                                "lvl_item_rb",
+                                "lvl_item_bc",
+                                "lvl_item_sm",
+                                "lvl_item_kf1",
+                                "lvl_item_kf2",
+                                "lvl_item_gy"        
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
