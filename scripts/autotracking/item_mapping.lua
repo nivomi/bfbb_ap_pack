@@ -2,6 +2,11 @@ ITEM_BASE_ID = 149000
 ITEM_MAPPING = {
     [ITEM_BASE_ID + 000] = {"spat", "consumable"},
     [ITEM_BASE_ID + 001] = {"sock", "consumable"},
+    [ITEM_BASE_ID + 002] = {"so_100", "consumable"},
+    [ITEM_BASE_ID + 003] = {"so_250", "consumable"},
+    [ITEM_BASE_ID + 004] = {"so_500", "consumable"},
+    [ITEM_BASE_ID + 005] = {"so_750", "consumable"},
+    [ITEM_BASE_ID + 006] = {"so_1000", "consumable"},
     [ITEM_BASE_ID + 007] = {"bubble_bowl", "toggle"},
     [ITEM_BASE_ID + 008] = {"cruise_bubble", "toggle"},
     [ITEM_BASE_ID + 009] = {"golden_underwear", "consumable"},
@@ -14,5 +19,5 @@ ITEM_MAPPING = {
     [ITEM_BASE_ID + 016] = {"lvl_item_kf1", "consumable"},
     [ITEM_BASE_ID + 017] = {"lvl_item_kf2", "consumable"},
     [ITEM_BASE_ID + 018] = {"lvl_item_gy", "consumable"},
-    [ITEM_BASE_ID + 019] = {"so_500", "consumable"},
+    
 }

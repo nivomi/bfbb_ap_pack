@@ -1,15 +1,15 @@
--- put logic functions here using the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
--- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
--- to see how this function gets called, check: locations/locations.json
--- example:
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
+function has_so(n)
+    local count = Tracker:ProviderCountForCode('so_100') * 100 +
+                    Tracker:ProviderCountForCode('so_250') * 250 +
+                    Tracker:ProviderCountForCode('so_500') * 500 +
+                    Tracker:ProviderCountForCode('so_750') * 750 +
+                    Tracker:ProviderCountForCode('so_1000') * 1000
     local val = (count > tonumber(n))
     if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
+        print(string.format("called has_so: count: %s, n: %s, val: %s", count, n, val))
     end
     if val then
-        return 1 -- 1 => access is in logic
+        return 1
     end
-    return 0 -- 0 => no access
+    return 0
 end

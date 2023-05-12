@@ -12,7 +12,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "10, 10",
-                        "item_size": "72, 72", 
+                        "item_size": "64, 64", 
                         "h_alignment": "left",
                         "rows": [
                             [
@@ -21,7 +21,11 @@
                                 "bubble_bowl",
                                 "cruise_bubble",
                                 "golden_underwear",
-                                "so_500"
+                                "so_100",
+                                "so_250",
+                                "so_500",
+                                "so_750",
+                                "so_1000"
                             ],
                             [
                                 "lvl_item_jf",

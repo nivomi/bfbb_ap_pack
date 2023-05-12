@@ -106,12 +106,48 @@
         "overlay_font_size": 20
     },
     {
-        "name": "500 Shiny Objects",
+        "name": "100 Shiny Objects",
         "type": "consumable",
         "img": "images/items/so_red.png",
+        "img_mods": "overlay|images/items/ol_100.png",
+        "max_quantity": 38,
+        "codes": "so_100",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "250 Shiny Objects",
+        "type": "consumable",
+        "img": "images/items/so_yellow.png",
+        "img_mods": "overlay|images/items/ol_250.png",
+        "max_quantity": 38,
+        "codes": "so_250",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "500 Shiny Objects",
+        "type": "consumable",
+        "img": "images/items/so_green.png",
         "img_mods": "overlay|images/items/ol_500.png",
         "max_quantity": 38,
         "codes": "so_500",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "750 Shiny Objects",
+        "type": "consumable",
+        "img": "images/items/so_blue.png",
+        "img_mods": "overlay|images/items/ol_750.png",
+        "max_quantity": 38,
+        "codes": "so_750",
+        "overlay_font_size": 20
+    },
+    {
+        "name": "1000 Shiny Objects",
+        "type": "consumable",
+        "img": "images/items/so_purple.png",
+        "img_mods": "overlay|images/items/ol_1000.png",
+        "max_quantity": 38,
+        "codes": "so_1000",
         "overlay_font_size": 20
     }
 ]

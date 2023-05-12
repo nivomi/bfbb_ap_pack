@@ -55,7 +55,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "cruise_bubble"
                 ]
             },
             {
@@ -72,7 +73,8 @@
                 "chest_unopened_img": "images/items/golden_underwear.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "cruise_bubble"
                 ]
             }
         ]
@@ -2028,7 +2030,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:2]"
+                    "[$has_so|1500]"
                 ]
             },
             {
@@ -2038,7 +2040,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:4]"
+                    "[$has_so|3250]"
                 ]
             },
             {
@@ -2048,7 +2050,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:6]"
+                    "[$has_so|5250]"
                 ]
             },
             {
@@ -2058,7 +2060,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:9]"
+                    "[$has_so|7500]"
                 ]
             },
             {
@@ -2068,7 +2070,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:12]"
+                    "[$has_so|10000]"
                 ]
             },
             {
@@ -2078,7 +2080,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:15]"
+                    "[$has_so|12750]"
                 ]
             },
             {
@@ -2088,7 +2090,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:19]"
+                    "[$has_so|16000]"
                 ]
             },
             {
@@ -2098,7 +2100,7 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[so_500:24]"
+                    "[$has_so|19750]"
                 ]
             }
         ]
