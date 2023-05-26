@@ -1,19 +1,19 @@
 {
     "versions": [
         {
-            "package_version": "1.0.0",
-            "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.0.0/bfbb_ap_pack-v1_0_0.zip",
-            "sha256": "cbeb9f832920a1d8a741b338df15b571fb8a0c7c7d809b3d8723dfcd20b69058",
-            "changelog": [
-                "Initial Release"
-            ]
-        },
-        {
             "package_version": "1.0.1",
             "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.0.1/bfbb_ap_pack-v1_0_1.zip",
             "sha256": "3792abc4fa6718ae9e6b56caa63dfae6e839c5a92da4f87d7ab94a291769a758",
             "changelog": [
                 "Fix sock visibility"
+            ]
+        },
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.0.0/bfbb_ap_pack-v1_0_0.zip",
+            "sha256": "cbeb9f832920a1d8a741b338df15b571fb8a0c7c7d809b3d8723dfcd20b69058",
+            "changelog": [
+                "Initial Release"
             ]
         }
     ]
