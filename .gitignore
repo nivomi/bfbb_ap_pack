@@ -4,3 +4,4 @@ todo.*
 __pycache__
 *.py
 *.webp
+images/maps/src/

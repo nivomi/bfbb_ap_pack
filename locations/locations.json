@@ -747,21 +747,10 @@
             },
             {
                 "name": "Lost Sock",
-                "item_count": 2,
+                "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false
-            },
-            {
-                "name": "Lost Sock (requires Bubble Bowl or Cruise Bubble)",
-                "item_count": 1,
-                "chest_opened_img": "images/items/sock_disabled.png",
-                "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false,
-                "access_rules": [
-                    "bubble_bowl",
-                    "cruise_bubble"
-                ]
             },
             {
                 "name": "Purple Shiny Object",
