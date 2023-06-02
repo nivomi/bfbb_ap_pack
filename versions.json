@@ -3,7 +3,7 @@
         {
             "package_version": "1.1.0",
             "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.1.0/bfbb_ap_pack-v1_1_0.zip",
-            "sha256": "f89922fa14143e63eb668d72bd6c740ba4a5a0452a8861443d47f0e7997e43f6",
+            "sha256": "418161e09e074525d4812a54b31b77a19d2d948fd7ff28ed76762eb2e4926d44",
             "changelog": [
                 "Detailed variant",
                 "Fixed wrong rule on sliding minigame sock in Goo Lagoon"
