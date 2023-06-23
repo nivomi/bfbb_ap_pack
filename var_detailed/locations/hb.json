@@ -34,7 +34,8 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome"
+                    "@Poseidome, bubble_bowl",
+                    "@Poseidome, cruise_bubble"
                 ],
                 "sections": [
                     {
@@ -610,7 +611,8 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome"
+                    "@Poseidome, bubble_bowl",
+                    "@Poseidome, cruise_bubble"
                 ],
                 "sections": [
                     {

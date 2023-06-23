@@ -448,7 +448,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 1, spat:5"
+            "@Hub 1, $has_spats_for_gate|Hub1->BB01"
         ],
         "sections": [
             {
@@ -646,7 +646,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 1, spat:10"
+            "@Hub 1, $has_spats_for_gate|Hub1->GL01"
         ],
         "sections": [
             {
@@ -771,7 +771,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 1, spat:15"
+            "@Hub 1, $has_spats_for_gate|Hub1->Poseidome"
         ],
         "sections": [
             {
@@ -800,7 +800,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 2, spat:25"
+            "@Hub 2, $has_spats_for_gate|Hub2->RB01"
         ],
         "sections": [
             {
@@ -1154,7 +1154,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 2, spat:30"
+            "@Hub 2, $has_spats_for_gate|Hub2->SM01"
         ],
         "sections": [
             {
@@ -1308,7 +1308,8 @@
             }
         ],
         "access_rules": [
-            "@Hub 2, bubble_bowl, spat:40"
+            "@Hub 2, bubble_bowl, $has_spats_for_gate|Hub2->IP",
+            "@Hub 2, cruise_bubble, $has_spats_for_gate|Hub2->IP"
         ],
         "sections": [
             {
@@ -1337,7 +1338,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 3, spat:50"
+            "@Hub 3, $has_spats_for_gate|Hub3->KF01"
         ],
         "sections": [
             {
@@ -1560,7 +1561,7 @@
             }
         ],
         "access_rules": [
-            "@Hub 3, spat:60"
+            "@Hub 3, $has_spats_for_gate|Hub3->GY01"
         ],
         "sections": [
             {
@@ -1882,15 +1883,25 @@
             }
         ],
         "access_rules": [
-            "@Chum Bucket, spat:75, cruise_bubble"
+            "@Chum Bucket, $has_spats_for_gate|Chum Bucket->CB Lab, cruise_bubble"
         ],
         "sections": [
             {
                 "name": "Golden Spatula",
-                "item_count": 2,
+                "item_count": 1,
                 "chest_opened_img": "images/items/spat_disabled.png",
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false
+            },
+            {
+                "name": "Golden Spatula (requires Bubble Bowl)",
+                "item_count": 1,
+                "chest_opened_img": "images/items/spat_disabled.png",
+                "chest_unopened_img": "images/items/spat.png",
+                "clear_as_group": false,
+                "access_rules": [
+                    "bubble_bowl"
+                ]
             }
         ]
     },
