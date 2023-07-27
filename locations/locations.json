@@ -963,13 +963,14 @@
                 ]
             },
             {
-                "name": "Purple Shiny Object (requires Bubble Bowl)",
+                "name": "Purple Shiny Object (requires Bubble Bowl or Cruise Bubble)",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "cruise_bubble"
                 ]
             }
         ]

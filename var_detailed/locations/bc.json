@@ -367,7 +367,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "cruise_bubble"
                 ],
                 "sections": [
                     {
