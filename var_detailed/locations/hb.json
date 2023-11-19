@@ -207,7 +207,7 @@
                     }
                 ],
                 "access_rules": [
-                    "spat:15"
+                    "$has_spats_for_gate|Hub1->Poseidome"
                 ],
                 "sections": [
                     {
@@ -236,7 +236,8 @@
                     }
                 ],
                 "access_rules": [
-                    "spat:40, bubble_bowl"
+                    "$has_spats_for_gate|Hub2->IP, bubble_bowl",
+                    "$has_spats_for_gate|Hub2->IP, cruise_bubble"
                 ],
                 "sections": [
                     {
@@ -265,7 +266,7 @@
                     }
                 ],
                 "access_rules": [
-                    "spat:75, bubble_bowl, cruise_bubble"
+                    "$has_spats_for_gate|Chum Bucket->CB Lab, cruise_bubble"
                 ],
                 "sections": [
                     {

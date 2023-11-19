@@ -2,7 +2,7 @@
     {
         "name": "gl",
         "access_rules": [
-            "spat:10"
+            "$has_spats_for_gate|Hub1->GL01"
         ],
         "children": [
             {

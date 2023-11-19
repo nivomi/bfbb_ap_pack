@@ -2,7 +2,7 @@
     {
         "name": "gy",
         "access_rules": [
-            "@hb/Industrial Park, spat:60"
+            "@hb/Industrial Park, $has_spats_for_gate|Hub3->GY01"
         ],
         "children": [
             {

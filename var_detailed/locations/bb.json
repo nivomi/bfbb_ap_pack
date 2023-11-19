@@ -2,7 +2,7 @@
     {
         "name": "bb",
         "access_rules": [
-            "spat:5"
+            "$has_spats_for_gate|Hub1->BB01"
         ],
         "children": [
             {

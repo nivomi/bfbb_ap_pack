@@ -2,7 +2,7 @@
     {
         "name": "kf",
         "access_rules": [
-            "@hb/Industrial Park, spat:50"
+            "@hb/Industrial Park, $has_spats_for_gate|Hub3->KF01"
         ],
         "children": [
             {

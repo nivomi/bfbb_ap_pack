@@ -2,7 +2,7 @@
     {
         "name": "rb",
         "access_rules": [
-            "@hb/Poseidome, spat:25"
+            "@hb/Poseidome, $has_spats_for_gate|Hub2->RB01"
         ],
         "children": [
             {
