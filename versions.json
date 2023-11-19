@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.1.2",
+            "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.1.2/bfbb_ap_pack-v1_1_2.zip",
+            "sha256": "cf3a0851c579497d83bd8c69488aba1023f5c6b934f29ad576e091fbe9ea55a9",
+            "changelog": [
+                "Fixed detailed variant access rules"
+            ]
+        },
+        {
             "package_version": "1.1.1",
             "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.1.1/bfbb_ap_pack-v1_1_1.zip",
             "sha256": "34aa377932ddffaa29f3f6ed7573a8659da9b545c1f74258db186b25db383a26",
