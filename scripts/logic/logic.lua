@@ -32,7 +32,9 @@ function has_spats_for_gate(gate)
         print(string.format("called has_spats_for_gate: gate: %s,", gate))
     end
     local costs = {}
-    if not SLOT_DATA.gate_costs then
+    if not SLOT_DATA then
+        costs = DEFAULT_GATE_COSTS    
+    elseif not SLOT_DATA.gate_costs then
         costs = DEFAULT_GATE_COSTS
     else
         costs = SLOT_DATA.gate_costs
