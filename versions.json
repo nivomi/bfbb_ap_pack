@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.1.1/bfbb_ap_pack-v1_1_1.zip",
+            "sha256": "34aa377932ddffaa29f3f6ed7573a8659da9b545c1f74258db186b25db383a26",
+            "changelog": [
+                "Support random taxi gate costs",
+                "Fixed BC01 Duplicatotron bowling sock access"
+            ]
+        },
+        {
             "package_version": "1.1.0",
             "download_url": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases/download/v1.1.0/bfbb_ap_pack-v1_1_0.zip",
             "sha256": "418161e09e074525d4812a54b31b77a19d2d948fd7ff28ed76762eb2e4926d44",
