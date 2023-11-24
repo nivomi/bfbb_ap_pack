@@ -57,7 +57,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park"
+                    "@Industrial Park, cruise_bubble"
                 ],
                 "sections": [
                     {
@@ -635,7 +635,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park"
+                    "@Industrial Park, cruise_bubble"
                 ],
                 "sections": [
                     {
