@@ -1,15 +1,23 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+function GetCurrentSceneKey()
+    return "bfbb_current_scene_T" .. tostring(Archipelago.TeamNumber) .. "_P" .. tostring(Archipelago.PlayerNumber)
+end
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
+    local keys = {GetCurrentSceneKey()}
+    Archipelago:Get(keys)
+    Archipelago:SetNotify(keys)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -125,7 +133,7 @@ function onItem(index, item_id, item_name, player_number)
     end
 end
 
---called when a location gets cleared
+-- called when a location gets cleared
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onLocation: %s, %s", location_id, location_name))
@@ -166,10 +174,27 @@ function onBounce(json)
     -- your code goes here
 end
 
+function onRetrieved(key, value, old_value)
+    if key == GetCurrentSceneKey() then
+        if not IS_DETAILED then
+            return
+        end
+        local maps = MAP_MAPPING[value]
+        if not maps then
+            return
+        end
+        for _, v in ipairs(maps) do
+            Tracker:UiHint("ActivateTab", v)
+        end
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddRetrievedHandler("retrieved handler", onRetrieved)
+Archipelago:AddSetReplyHandler("set reply handler", onRetrieved)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
