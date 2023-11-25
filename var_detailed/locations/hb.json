@@ -34,8 +34,10 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome, bubble_bowl",
-                    "@Poseidome, cruise_bubble"
+                    "@hb/Poseidome, bubble_bowl",
+                    "@hb/Poseidome, $not_include_skills",
+                    "@hb/Poseidome, cruise_bubble",
+                    "@hb/Poseidome, $not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -57,7 +59,8 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park, cruise_bubble"
+                    "@hb/Industrial Park, cruise_bubble",
+                    "@hb/Industrial Park, $not_include_skills"
                 ],
                 "sections": [
                     {
@@ -91,7 +94,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/sock_disabled.png",
                         "chest_unopened_img": "images/items/sock.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_socks"
+                        ]
                     }
                 ]
             },
@@ -120,7 +126,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/sock_disabled.png",
                         "chest_unopened_img": "images/items/sock.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_socks"
+                        ]
                     }
                 ]
             },
@@ -134,7 +143,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome"
+                    "@hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -156,7 +165,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park"
+                    "@hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -171,7 +180,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/sock_disabled.png",
                         "chest_unopened_img": "images/items/sock.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_socks"
+                        ]
                     }
                 ]
             },
@@ -185,7 +197,8 @@
                     }
                 ],
                 "access_rules": [
-                    "spat:40, bubble_bowl"
+                    "spat:40, bubble_bowl",
+                    "spat:40, $not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -222,7 +235,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/bubble_bowl_disabled.png",
                         "chest_unopened_img": "images/items/bubble_bowl.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_skills"
+                        ]
                     }
                 ]
             },
@@ -237,7 +253,9 @@
                 ],
                 "access_rules": [
                     "$has_spats_for_gate|Hub2->IP, bubble_bowl",
-                    "$has_spats_for_gate|Hub2->IP, cruise_bubble"
+                    "$has_spats_for_gate|Hub2->IP, $not_include_skills, @hb/Poseidome",
+                    "$has_spats_for_gate|Hub2->IP, cruise_bubble",
+                    "$has_spats_for_gate|Hub2->IP, $not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -252,7 +270,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/cruise_bubble_disabled.png",
                         "chest_unopened_img": "images/items/cruise_bubble.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_skills"
+                        ]
                     }
                 ]
             },
@@ -266,7 +287,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$has_spats_for_gate|Chum Bucket->CB Lab, cruise_bubble"
+                    "$has_spats_for_gate|Chum Bucket->CB Lab, cruise_bubble",
+                    "$has_spats_for_gate|Chum Bucket->CB Lab, $not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -303,7 +325,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/sock_disabled.png",
                         "chest_unopened_img": "images/items/sock.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_socks"
+                        ]
                     },
                     {
                         "name": "Return 10 Socks To Patrick",
@@ -502,7 +527,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park"
+                    "@hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -512,6 +537,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -524,7 +552,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome"
+                    "@hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -534,6 +562,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -554,7 +585,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/sock_disabled.png",
                         "chest_unopened_img": "images/items/sock.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_socks"
+                        ]
                     }
                 ]
             },
@@ -568,7 +602,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome"
+                    "@hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -578,6 +612,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -600,6 +637,9 @@
                         "chest_unopened_img": "images/items/golden_underwear.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_golden_underwear"
                 ]
             },
             {
@@ -612,8 +652,10 @@
                     }
                 ],
                 "access_rules": [
-                    "@Poseidome, bubble_bowl",
-                    "@Poseidome, cruise_bubble"
+                    "@hb/Poseidome, bubble_bowl",
+                    "@hb/Poseidome, $not_include_skills",
+                    "@hb/Poseidome, cruise_bubble",
+                    "@hb/Poseidome, $not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -623,6 +665,9 @@
                         "chest_unopened_img": "images/items/golden_underwear.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_golden_underwear"
                 ]
             },
             {
@@ -635,7 +680,8 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park, cruise_bubble"
+                    "@hb/Industrial Park, cruise_bubble",
+                    "@hb/Industrial Park, $not_include_skills"
                 ],
                 "sections": [
                     {
@@ -645,6 +691,9 @@
                         "chest_unopened_img": "images/items/golden_underwear.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_golden_underwear"
                 ]
             },
             {
@@ -657,7 +706,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Industrial Park"
+                    "@hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -667,6 +716,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]

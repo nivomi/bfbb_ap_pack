@@ -34,7 +34,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_level_items, @Poseidome"
                 ],
                 "sections": [
                     {
@@ -177,6 +178,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -196,6 +200,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -215,6 +222,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -234,6 +244,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -253,6 +266,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -272,6 +288,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -291,6 +310,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -310,6 +332,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -329,6 +354,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -348,6 +376,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]

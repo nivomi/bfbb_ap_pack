@@ -53,7 +53,8 @@
                     }
                 ],
                 "access_rules": [
-                    "lvl_item_rb:6"
+                    "lvl_item_rb:6",
+                    "$not_include_level_items"
                 ],
                 "sections": [
                     {
@@ -87,7 +88,10 @@
                         "item_count": 1,
                         "chest_opened_img": "images/items/so_purple_disabled.png",
                         "chest_unopened_img": "images/items/so_purple.png",
-                        "clear_as_group": false
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "$include_purple_so"
+                        ]
                     }
                 ]
             },
@@ -184,6 +188,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -203,6 +210,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -222,6 +232,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -241,6 +254,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -260,6 +276,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -279,6 +298,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -298,6 +320,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -317,6 +342,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -336,6 +364,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -355,6 +386,9 @@
                         "chest_unopened_img": "images/items/lvl_item_rb.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -374,6 +408,9 @@
                         "chest_unopened_img": "images/items/lvl_item_rb.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -393,6 +430,9 @@
                         "chest_unopened_img": "images/items/lvl_item_rb.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -412,6 +452,9 @@
                         "chest_unopened_img": "images/items/lvl_item_rb.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -431,6 +474,9 @@
                         "chest_unopened_img": "images/items/lvl_item_rb.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -450,6 +496,9 @@
                         "chest_unopened_img": "images/items/lvl_item_rb.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -469,6 +518,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -488,6 +540,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]

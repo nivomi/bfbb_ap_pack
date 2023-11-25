@@ -47,9 +47,9 @@
                 "name": "Spelunking",
                 "map_locations": [
                     {
-                        "map": "jf02_02",
-                        "x": 200,
-                        "y": 530
+                        "map": "jf02",
+                        "x": 180,
+                        "y": 1040
                     }
                 ],
                 "sections": [
@@ -66,9 +66,9 @@
                 "name": "Patrick's Dilemma",
                 "map_locations": [
                     {
-                        "map": "jf02_01",
+                        "map": "jf02",
                         "x": 604,
-                        "y": 385
+                        "y": 300
                     }
                 ],
                 "sections": [
@@ -148,7 +148,8 @@
                     }
                 ],
                 "access_rules": [
-                    "lvl_item_jf"
+                    "lvl_item_jf",
+                    "$not_include_level_items"
                 ],
                 "sections": [
                     {
@@ -177,6 +178,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -196,6 +200,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -215,6 +222,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -234,6 +244,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -253,6 +266,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -265,7 +281,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -275,15 +292,18 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
                 "name": "Lost Sock #1 (On slide)",
                 "map_locations": [
                     {
-                        "map": "jf02_01",
+                        "map": "jf02",
                         "x": 1058,
-                        "y": 283
+                        "y": 207
                     }
                 ],
                 "sections": [
@@ -294,15 +314,18 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
                 "name": "Lost Sock #2 (After slide)",
                 "map_locations": [
                     {
-                        "map": "jf02_01",
+                        "map": "jf02",
                         "x": 859,
-                        "y": 139
+                        "y": 53
                     }
                 ],
                 "sections": [
@@ -313,15 +336,18 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
                 "name": "Lost Sock #3 (In cave near slide)",
                 "map_locations": [
                     {
-                        "map": "jf02_02",
+                        "map": "jf02",
                         "x": 1356,
-                        "y": 478
+                        "y": 993
                     }
                 ],
                 "sections": [
@@ -332,15 +358,18 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
                 "name": "Lost Sock #4 (On goo in cave)",
                 "map_locations": [
                     {
-                        "map": "jf02_02",
+                        "map": "jf02",
                         "x": 280,
-                        "y": 550
+                        "y": 1068
                     }
                 ],
                 "sections": [
@@ -351,6 +380,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -370,6 +402,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -382,7 +417,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -392,6 +428,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -411,6 +450,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -430,6 +472,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -449,6 +494,9 @@
                         "chest_unopened_img": "images/items/lvl_item_jf.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -468,15 +516,18 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
                 "name": "Purple Shiny Object (On goo near exit)",
                 "map_locations": [
                     {
-                        "map": "jf02_02",
+                        "map": "jf02",
                         "x": 185,
-                        "y": 462
+                        "y": 987
                     }
                 ],
                 "sections": [
@@ -487,6 +538,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -506,6 +560,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -525,6 +582,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]

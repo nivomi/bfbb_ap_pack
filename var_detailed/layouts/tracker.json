@@ -51,20 +51,11 @@
                                         }
                                     },
                                     {
-                                        "title": "Area 2 Part 1",
+                                        "title": "Area 2",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "jf02_01"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Area 2 Part 2",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "jf02_02"
+                                                "jf02"
                                             ]
                                         }
                                     },

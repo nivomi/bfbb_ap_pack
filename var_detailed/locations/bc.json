@@ -15,7 +15,8 @@
                     }
                 ],
                 "access_rules": [
-                    "[bubble_bowl]"
+                    "[bubble_bowl]",
+                    "[$not_include_skills], [@hb/Poseidome]"
                 ],
                 "sections": [
                     {
@@ -37,7 +38,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -59,7 +61,10 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl, lvl_item_bc:4"
+                    "bubble_bowl, lvl_item_bc:4",
+                    "bubble_bowl, $not_include_level_items",
+                    "$not_include_skills, @hb/Poseidome, lvl_item_bc:4",
+                    "$not_include_skills, @hb/Poseidome, $not_include_level_items"
                 ],
                 "sections": [
                     {
@@ -81,7 +86,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -103,7 +109,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -125,7 +132,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -147,7 +155,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -169,7 +178,10 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl, lvl_item_bc:4"
+                    "bubble_bowl, lvl_item_bc:4",
+                    "bubble_bowl, $not_include_level_items",
+                    "$not_include_skills, @hb/Poseidome, lvl_item_bc:4",
+                    "$not_include_skills, @hb/Poseidome, $not_include_level_items"
                 ],
                 "sections": [
                     {
@@ -191,7 +203,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -201,6 +214,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -213,7 +229,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -223,6 +240,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -235,7 +255,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -245,6 +266,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -257,7 +281,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -267,6 +292,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -279,7 +307,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -289,6 +318,9 @@
                         "chest_unopened_img": "images/items/lvl_item_bc.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -301,7 +333,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -311,6 +344,9 @@
                         "chest_unopened_img": "images/items/lvl_item_bc.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -323,7 +359,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -333,6 +370,9 @@
                         "chest_unopened_img": "images/items/lvl_item_bc.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -345,7 +385,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -355,6 +396,9 @@
                         "chest_unopened_img": "images/items/lvl_item_bc.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -368,7 +412,9 @@
                 ],
                 "access_rules": [
                     "bubble_bowl",
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Poseidome",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -378,6 +424,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -390,7 +439,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -400,6 +450,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -412,7 +465,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -422,6 +476,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -434,7 +491,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -444,6 +502,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -456,7 +517,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -466,6 +528,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]

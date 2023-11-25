@@ -34,7 +34,9 @@
                     }
                 ],
                 "access_rules": [
-                    "lvl_item_kf1:6"
+                    "lvl_item_kf1:6",
+                    "$not_include_level_items, cruise_bubble",
+                    "$not_include_level_items, $not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -94,7 +96,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -116,7 +119,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble, lvl_item_kf2:6"
+                    "lvl_item_kf2:6",
+                    "$not_include_level_items"
                 ],
                 "sections": [
                     {
@@ -138,7 +142,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -160,7 +165,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -189,6 +195,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -208,6 +217,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -220,7 +232,8 @@
                     }
                 ],
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @hb/Poseidome"
                 ],
                 "sections": [
                     {
@@ -230,6 +243,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -249,6 +265,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -268,6 +287,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -280,7 +302,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -290,6 +313,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -302,7 +328,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -312,6 +339,9 @@
                         "chest_unopened_img": "images/items/sock.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -324,7 +354,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -334,6 +365,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf1.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -346,7 +380,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -356,6 +391,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf1.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -368,7 +406,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -378,6 +417,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf1.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -397,6 +439,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf1.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -416,6 +461,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf1.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -428,7 +476,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -438,6 +487,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf1.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -450,7 +502,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -460,6 +513,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf2.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -472,7 +528,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -482,6 +539,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf2.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -494,7 +554,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -504,6 +565,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf2.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -516,7 +580,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -526,6 +591,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf2.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -538,7 +606,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -548,6 +617,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf2.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -560,7 +632,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -570,6 +643,9 @@
                         "chest_unopened_img": "images/items/lvl_item_kf2.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -582,7 +658,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -592,6 +669,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -611,6 +691,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -623,7 +706,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -633,6 +717,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             },
             {
@@ -645,7 +732,8 @@
                     }
                 ],
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @hb/Industrial Park"
                 ],
                 "sections": [
                     {
@@ -655,6 +743,9 @@
                         "chest_unopened_img": "images/items/so_purple.png",
                         "clear_as_group": false
                     }
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]

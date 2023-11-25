@@ -6,6 +6,12 @@
         "img": "images/maps/jf01.png"
     },
     {
+        "name": "jf02",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/jf02.png"
+    },
+    {
         "name": "jf02_01",
         "location_size": 35,
         "location_border_thickness": 5,

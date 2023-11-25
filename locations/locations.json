@@ -24,14 +24,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Golden Underwear",
                 "item_count": 1,
                 "chest_opened_img": "images/items/golden_underwear_disabled.png",
                 "chest_unopened_img": "images/items/golden_underwear.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_golden_underwear"
+                ]
             }
         ]
     },
@@ -55,8 +61,9 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl",
-                    "cruise_bubble"
+                    "bubble_bowl",                    
+                    "cruise_bubble",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -64,7 +71,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Golden Underwear",
@@ -74,7 +84,11 @@
                 "clear_as_group": false,
                 "access_rules": [
                     "bubble_bowl",
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_golden_underwear"
                 ]
             }
         ]
@@ -99,7 +113,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -107,7 +122,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Golden Underwear",
@@ -116,7 +134,11 @@
                 "chest_unopened_img": "images/items/golden_underwear.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_golden_underwear"
                 ]
             },
             {
@@ -124,7 +146,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -150,7 +175,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             }
         ]
     },
@@ -179,7 +207,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             }
         ]
     },
@@ -230,7 +261,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             }
         ]
     },
@@ -282,8 +316,9 @@
                 "chest_opened_img": "images/items/spat_disabled.png",
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
-                "access_rules": [
-                    "lvl_item_jf"
+                "access_rules": [                    
+                    "lvl_item_jf",
+                    "$not_include_level_items"
                 ]
             },
             {
@@ -291,7 +326,10 @@
                 "item_count": 5,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Lost Sock (requires Bubble Bowl)",
@@ -300,7 +338,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills, @Hub 2"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -308,7 +350,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -337,14 +382,20 @@
                 "item_count": 4,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -373,7 +424,10 @@
                 "item_count": 2,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Lost Sock (requires Cruise Bubble)",
@@ -382,7 +436,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @Hub 3"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -390,7 +448,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -419,21 +480,30 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "King Jellyfish Jelly",
                 "item_count": 1,
                 "chest_opened_img": "images/items/lvl_item_jf_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_jf.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -464,7 +534,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_bb:11"
+                    "lvl_item_bb:11",
+                    "$not_include_level_items"
                 ]
             },
             {
@@ -472,21 +543,30 @@
                 "item_count": 4,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Steering Wheel",
                 "item_count": 5,
                 "chest_opened_img": "images/items/lvl_item_bb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_bb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 2,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -515,21 +595,30 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Steering Wheel",
                 "item_count": 3,
                 "chest_opened_img": "images/items/lvl_item_bb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_bb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 2,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -558,21 +647,30 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Steering Wheel",
                 "item_count": 1,
                 "chest_opened_img": "images/items/lvl_item_bb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_bb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -603,7 +701,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @Hub 3"
                 ]
             },
             {
@@ -613,7 +712,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @Hub 3"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -621,7 +724,10 @@
                 "item_count": 2,
                 "chest_opened_img": "images/items/lvl_item_bb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_bb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object (requires Cruise Bubble)",
@@ -630,7 +736,11 @@
                 "chest_unopened_img": "images/items/so_purple.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills, @Hub 3"
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]
@@ -662,7 +772,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_gl:5"
+                    "lvl_item_gl:5",
+                    "$not_include_level_items"
                 ]
             },
             {
@@ -670,21 +781,30 @@
                 "item_count": 5,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Balloon Kid",
                 "item_count": 5,
                 "chest_opened_img": "images/items/lvl_item_gl_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_gl.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -713,14 +833,20 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -749,14 +875,20 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -785,7 +917,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/bubble_bowl_disabled.png",
                 "chest_unopened_img": "images/items/bubble_bowl.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_skills"
+                ]
             }
         ]
     },
@@ -816,7 +951,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_rb:6"
+                    "lvl_item_rb:6",
+                    "$not_include_level_items"
                 ]
             },
             {
@@ -824,21 +960,30 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Museum Art",
                 "item_count": 2,
                 "chest_opened_img": "images/items/lvl_item_rb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_rb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -867,21 +1012,30 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Museum Art",
                 "item_count": 2,
                 "chest_opened_img": "images/items/lvl_item_rb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_rb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -910,21 +1064,30 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Museum Art",
                 "item_count": 2,
                 "chest_opened_img": "images/items/lvl_item_rb_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_rb.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -948,7 +1111,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "[bubble_bowl]"
+                    "[bubble_bowl]",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -958,7 +1122,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -969,7 +1137,11 @@
                 "clear_as_group": false,
                 "access_rules": [
                     "bubble_bowl",
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]
@@ -984,7 +1156,8 @@
             }
         ],
         "access_rules": [
-            "@Mermalair 1, bubble_bowl"
+            "@Mermalair 1, bubble_bowl",
+            "@Mermalair 1, $not_include_skills"
         ],
         "sections": [
             {
@@ -994,7 +1167,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -1004,7 +1178,10 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl, lvl_item_bc:4"
+                    "bubble_bowl, lvl_item_bc:4",                    
+                    "$not_include_skills, lvl_item_bc:4",
+                    "bubble_bowl, $not_include_level_items",                    
+                    "$not_include_skills, $not_include_level_items"
                 ]
             },
             {
@@ -1014,7 +1191,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -1024,7 +1205,11 @@
                 "chest_unopened_img": "images/items/lvl_item_bc.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -1032,7 +1217,10 @@
                 "item_count": 2,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1061,21 +1249,30 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Security Override Button",
                 "item_count": 1,
                 "chest_opened_img": "images/items/lvl_item_bc_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_bc.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1104,21 +1301,30 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Security Override Button",
                 "item_count": 1,
                 "chest_opened_img": "images/items/lvl_item_bc_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_bc.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1132,7 +1338,10 @@
             }
         ],
         "access_rules": [
-            "@Mermalair 2, bubble_bowl, lvl_item_bc:4"
+            "@Mermalair 2, bubble_bowl, lvl_item_bc:4",
+            "@Mermalair 2, $not_include_skills, lvl_item_bc:4",
+            "@Mermalair 2, bubble_bowl, $not_include_level_items",
+            "@Mermalair 2, $not_include_skills, $not_include_level_items"
         ],
         "sections": [
             {
@@ -1169,14 +1378,20 @@
                 "item_count": 2,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1205,14 +1420,20 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 2,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1241,7 +1462,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Lost Sock (requires Sandman)",
@@ -1250,7 +1474,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_sm:8"
+                    "lvl_item_sm:8",
+                    "$not_include_level_items"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -1258,7 +1486,10 @@
                 "item_count": 8,
                 "chest_opened_img": "images/items/lvl_item_sm_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_sm.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             }
         ]
     },
@@ -1287,14 +1518,20 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1309,7 +1546,8 @@
         ],
         "access_rules": [
             "@Hub 2, bubble_bowl, $has_spats_for_gate|Hub2->IP",
-            "@Hub 2, cruise_bubble, $has_spats_for_gate|Hub2->IP"
+            "@Hub 2, cruise_bubble, $has_spats_for_gate|Hub2->IP",
+            "@Hub 2, $not_include_skills, $has_spats_for_gate|Hub2->IP"
         ],
         "sections": [
             {
@@ -1324,7 +1562,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/cruise_bubble_disabled.png",
                 "chest_unopened_img": "images/items/cruise_bubble.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_skills"
+                ]
             }
         ]
     },
@@ -1355,7 +1596,9 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_kf1:6"
+                    "lvl_item_kf1:6",
+                    "$not_include_level_items, cruise_bubble",
+                    "$not_include_level_items, $not_include_skills"
                 ]
             },
             {
@@ -1365,7 +1608,11 @@
                 "chest_unopened_img": "images/items/lvl_item_kf1.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -1373,7 +1620,10 @@
                 "item_count": 2,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Lost Sock (requires Bubble Bowl)",
@@ -1382,7 +1632,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -1392,7 +1646,11 @@
                 "chest_unopened_img": "images/items/so_purple.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]
@@ -1422,21 +1680,30 @@
                 "item_count": 2,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Lost Camper",
                 "item_count": 2,
                 "chest_opened_img": "images/items/lvl_item_kf1_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_kf1.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1460,7 +1727,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -1470,7 +1738,9 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble, lvl_item_kf2:6"
+                    "lvl_item_kf2:6",
+                    "$not_include_level_items, cruise_bubble",
+                    "$not_include_level_items, $not_include_skills"                    
                 ]
             },
             {
@@ -1480,7 +1750,11 @@
                 "chest_unopened_img": "images/items/lvl_item_kf2.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -1490,7 +1764,11 @@
                 "chest_unopened_img": "images/items/sock.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_socks"
                 ]
             },
             {
@@ -1500,7 +1778,11 @@
                 "chest_unopened_img": "images/items/lvl_item_kf1.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_level_items"
                 ]
             },
             {
@@ -1510,7 +1792,11 @@
                 "chest_unopened_img": "images/items/so_purple.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]
@@ -1540,14 +1826,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1578,7 +1870,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "cruise_bubble"
+                    "cruise_bubble",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -1586,14 +1879,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1622,14 +1921,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1653,7 +1958,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_gy:4"
+                    "lvl_item_gy:4",
+                    "$not_include_level_items"
                 ]
             },
             {
@@ -1661,14 +1967,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Ship Cannon",
                 "item_count": 4,
                 "chest_opened_img": "images/items/lvl_item_gy_disabled.png",
                 "chest_unopened_img": "images/items/lvl_item_gy.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_level_items"
+                ]
             },
             {
                 "name": "Purple Shiny Object (requires Cannons)",
@@ -1677,7 +1989,11 @@
                 "chest_unopened_img": "images/items/so_purple.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "lvl_item_gy:4"
+                    "lvl_item_gy:4",
+                    "$not_include_level_items"
+                ],
+                "visibility_rules": [
+                    "$include_purple_so"
                 ]
             }
         ]
@@ -1692,7 +2008,8 @@
             }
         ],
         "access_rules": [
-            "@Flying Dutchman's Graveyard 3, lvl_item_gy:4"
+            "@Flying Dutchman's Graveyard 3, lvl_item_gy:4",
+            "@Flying Dutchman's Graveyard 3, $not_include_level_items"
         ],
         "sections": [
             {
@@ -1731,7 +2048,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
                 ]
             },
             {
@@ -1739,7 +2057,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1768,14 +2089,20 @@
                 "item_count": 3,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 2,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1804,14 +2131,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1840,14 +2173,20 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             },
             {
                 "name": "Purple Shiny Object",
                 "item_count": 1,
                 "chest_opened_img": "images/items/so_purple_disabled.png",
                 "chest_unopened_img": "images/items/so_purple.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_purple_so"
+                ]
             }
         ]
     },
@@ -1900,7 +2239,8 @@
                 "chest_unopened_img": "images/items/spat.png",
                 "clear_as_group": false,
                 "access_rules": [
-                    "bubble_bowl"
+                    "bubble_bowl",
+                    "$not_include_skills"
                 ]
             }
         ]
@@ -2123,7 +2463,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             }
         ]
     },
@@ -2145,7 +2488,10 @@
                 "item_count": 1,
                 "chest_opened_img": "images/items/sock_disabled.png",
                 "chest_unopened_img": "images/items/sock.png",
-                "clear_as_group": false
+                "clear_as_group": false,
+                "visibility_rules": [
+                    "$include_socks"
+                ]
             }
         ]
     }
