@@ -1,4 +1,4 @@
-LOCATION_BASE_ID = 149000
+LOCATION_BASE_ID = 1490000
 LOCATION_MAPPING = {
     [LOCATION_BASE_ID + 0] = {"@Hub 1/Golden Spatula"},
     [LOCATION_BASE_ID + 1] = {"@Hub 2/Golden Spatula"},

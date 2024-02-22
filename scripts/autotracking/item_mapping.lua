@@ -1,4 +1,4 @@
-ITEM_BASE_ID = 149000
+ITEM_BASE_ID = 1490000
 ITEM_MAPPING = {
     [ITEM_BASE_ID + 000] = {"spat", "consumable"},
     [ITEM_BASE_ID + 001] = {"sock", "consumable"},

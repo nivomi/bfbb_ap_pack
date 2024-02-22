@@ -35,7 +35,7 @@
                 ],
                 "access_rules": [
                     "bubble_bowl",
-                    "$not_include_level_items, @Poseidome"
+                    "$not_include_level_items, @hb/Poseidome"
                 ],
                 "sections": [
                     {
